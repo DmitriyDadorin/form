@@ -1,0 +1,126 @@
+
+
+.obshii-block {
+    width:910px;
+    padding:25px 20px;
+    position:relative;
+    border-radius:20px;
+    background-color:#fff;
+    margin:100px auto 50px auto;
+
+}
+
+
+.obshii-block::before {
+    content: '';
+    display: block;
+    height:105px;
+    width:105px;
+    background-image: url(image/form_clock.png);
+    position:absolute;
+    left:-30px;
+    top:-32px;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+.levaya-storona {
+    width:534px;
+    float:left;
+    font-family: Calibri,sans-serif;
+}
+
+.levaya-storona h3 {
+  font: italic 35px Verdana, sans-serif;
+  text-align: center;
+  color: #ec7d3a;
+  text-shadow: 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 3px 0 9px #767676;
+  margin-bottom:20px;    
+}
+
+.levaya-box {
+  padding: 17px 24px;
+  margin-top: 15px;
+  background: #fff;
+  border: solid 5px #ff6600;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.dinamika-text {
+  margin-left: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+  color: #ff6600;
+  font-family: Arial,sans-serif;
+}
+
+.levaya-box-skidka-text {
+  height: 40px;
+  padding: 14px 135px 14px 27px;
+  margin-top: 25px;
+  position: relative;
+  background: #f2f2f2;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 23px;
+  color: #000000;  
+}
+
+.levaya-box-skidka-text div {
+  width: 105px;
+  height: 68px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #ff4772;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 68px;
+  font-size: 30px;
+  color: #fff;
+  background: -moz-linear-gradient(top, #ff4772 0%, #ff012c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff4772), color-stop(100%, #ff012c));
+  background: -webkit-linear-gradient(top, #ff4772 0%, #ff012c 100%);
+  background: -o-linear-gradient(top, #ff4772 0%, #ff012c 100%);
+  background: -ms-linear-gradient(top, #ff4772 0%, #ff012c 100%);
+  background: linear-gradient(to bottom, #ff4772 0%, #ff012c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4772', endColorstr='#ff012c',GradientType=0 );
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+.levaya-box-neotkladuvai {
+  padding: 10px 27px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 30px;
+  color: #7d7d7d;
+  margin-top:10px;    
+}
+
+.levaya-box-price {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 45px;
+  color: #ff416c;
+  margin-top:10px;    
+}
+
+:focus::-webkit-input-placeholder { color:transparent; }
+:focus::-moz-placeholder { color:transparent; }
+:focus::placeholder { color:transparent; }

@@ -13,11 +13,60 @@
 </head>
 <body>
     
-    
-     
+    <div class="obshii-block clearfix">
+        <div class="levaya-storona">
+            <h3>Счастливые часы</h3>
+            <div class="levaya-box">
+                <p class="dinamika-text">
+                    <script type="text/javascript">
+				        d = new Date();	p = new Date(d.getTime());
+				        monthA = 'января,февраля,марта,апреля,мая,июня,июля,августа,сентября,октября,ноября,декабря'.split(',');
+				        document.write(p.getDate() + ' ' + monthA[p.getMonth()]);			
+			         </script>
+                    
+                    <script  type="text/javascript">  
+                        var h=(new Date()).getHours();
+                        if (h == 1 ) document. write('с 0 до 2');
+                        if (h == 2 ) document. write('с 1 до 3');
+                        if (h == 3 ) document. write('с 2 до 4');
+                        if (h == 4 ) document. write('с 3 до 5');
+                        if (h == 5 ) document. write('с 4 до 6');
+                        if (h == 6 ) document. write('с 5 до 7');
+                        if (h == 7 ) document. write('с 6 до 8');
+                        if (h == 8 ) document. write('с 7 до 9');
+                        if (h == 9 ) document. write('с 8 до 10');
+                        if (h == 10 ) document. write('с 9 до 11');
+                        if (h == 11 ) document. write('с 10 до 12');  
+                        if (h == 12 ) document. write('с 11 до 13');
+                        if (h == 13 ) document. write('с 12 до 14');
+                        if (h == 14 ) document. write('с 13 до 15');
+                        if (h == 15 ) document. write('с 14 до 16');
+                        if (h == 16 ) document. write('с 15 до 17');
+                        if (h == 17 ) document. write('с 16 до 18');
+                        if (h == 18 ) document. write('с 17 до 19');
+                        if (h == 19 ) document. write('с 18 до 20');
+                        if (h == 20 ) document. write('с 19 до 21');
+                        if (h == 21 ) document. write('с 20 до 22');
+                        if (h == 22 ) document. write('с 21 до 23');
+                        if (h == 23 ) document. write('с 22 до 00');
+                        if (h == 23 ) document. write('с 22 до 00');
+                        if (h == 0 ) document. write('с 23 до 1'); 
+                    </script>
+                </p>
+                <div class="levaya-box-skidka-text">
+                    <p>скидка на всю продукцию (название)</p>
+                    <div>55%</div>
+                </div>
+                <div class="levaya-box-neotkladuvai">
+                    не откладывайте покупку на завтра <br> мы работаем круглосуточно!
+                </div>
+                <div class="levaya-box-price">990 руб.</div>
+            </div>
+        </div>
         
+        <div class="pravaya-storona">
             <div class="form-container">
-		      <h2>Форма заявки</h2>
+		      <h2>Форма заказа</h2>
 		      <div id="note"></div>
 		      <div id="fields">
 			     <form id="ajax-contact-form" action="">
@@ -28,6 +77,9 @@
 			     </form>
 		      </div>
 	       </div>
-      
+        </div>
+    
+    </div>
+	
 </body>
 </html>
